@@ -2,8 +2,9 @@
 package S05_04;
 
 public class Animal_04 {
-    private String nombre;
-    private int edad;
+    // Atributos
+    String nombre;
+    int edad;
 
     // Constructor de la clase Animal
     public Animal_04(String nombre, int edad) {
@@ -11,6 +12,7 @@ public class Animal_04 {
         this.edad = edad;
     }
 
+    // Metodos
     public void imprimirInfo() {
         System.out.println("Nombre del animal: " + nombre);
         System.out.println("Edad del animal: " + edad);

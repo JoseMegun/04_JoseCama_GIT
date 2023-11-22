@@ -2,9 +2,10 @@
 package S05_04;
 
 public class Juguete_04 {
-    private String nombre;
-    private String tipo;
-    private double precio;
+    // Atributos
+    String nombre;
+    String tipo;
+    double precio;
 
     // Constructor de la clase Juguete
     public Juguete_04(String nombre, String tipo, double precio) {
@@ -13,6 +14,7 @@ public class Juguete_04 {
         this.precio = precio;
     }
 
+    // Metodos
     public void imprimirInfo() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Tipo: " + tipo);
